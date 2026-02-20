@@ -94,8 +94,9 @@ st.markdown(f"""
   .stApp {{ background-color: {T['bg']} !important; }}
 
   .main .block-container {{
-    padding: 2rem 3rem 4rem;
+    padding: 2rem 8rem 4rem;
     max-width: 1200px;
+    margin: 0 auto;
     background-color: {T['bg']} !important;
   }}
 
