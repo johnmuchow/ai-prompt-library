@@ -469,15 +469,15 @@ st.markdown(f"""
 col1, col2, col3 = st.columns([3, 1.5, 1.5])
 
 with col1:
-    search = st.text_input("", placeholder="🔍  Search prompts...", label_visibility="collapsed")
+    search = st.text_input("Search", placeholder="🔍  Search prompts...", label_visibility="collapsed")
 
 with col2:
     all_tools = ["All Tools"] + sorted(list(set(p["tool"] for p in prompts)))
-    selected_tool = st.selectbox("", all_tools, label_visibility="collapsed")
+    selected_tool = st.selectbox("Tool", all_tools, label_visibility="collapsed")
 
 with col3:
     all_cats = ["All Categories"] + sorted(list(set(p["category"] for p in prompts)))
-    selected_cat = st.selectbox("", all_cats, label_visibility="collapsed")
+    selected_cat = st.selectbox("Category", all_cats, label_visibility="collapsed")
 
 st.markdown("<br>", unsafe_allow_html=True)
 
