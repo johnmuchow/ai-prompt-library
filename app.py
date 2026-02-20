@@ -12,7 +12,7 @@ st.set_page_config(
 
 # ── Theme init ────────────────────────────────────────────────────────────────
 if "dark_mode" not in st.session_state:
-    st.session_state.dark_mode = True
+    st.session_state.dark_mode = False
 
 dark = st.session_state.dark_mode
 
