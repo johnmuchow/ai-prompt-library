@@ -95,9 +95,16 @@ st.markdown(f"""
 
   .main .block-container {{
     padding: 2rem 8rem 4rem;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 960px !important;
+    margin: 0 auto !important;
     background-color: {T['bg']} !important;
+  }}
+
+  section.main > div {{
+    max-width: 960px !important;
+    margin: 0 auto !important;
+    padding-left: 8rem !important;
+    padding-right: 8rem !important;
   }}
 
   .accent-bar {{
