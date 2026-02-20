@@ -431,6 +431,7 @@ with col_header:
       <div class="header-title">AI Prompt Library</div>
       <div class="header-meta">
         Published by <a href="https://x.com/JohnMuchow" target="_blank">@JohnMuchow</a> ·
+        TradingView indicators at <a href="https://leveluptools.net" target="_blank">LevelUpTools.net</a><br>
         Each prompt links to the full article with live examples
       </div>
     </div>
