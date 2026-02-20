@@ -94,17 +94,17 @@ st.markdown(f"""
   .stApp {{ background-color: {T['bg']} !important; }}
 
   .main .block-container {{
-    padding: 2rem 8rem 4rem;
-    max-width: 960px !important;
+    padding: 2rem 3rem 4rem;
+    max-width: 1200px !important;
     margin: 0 auto !important;
     background-color: {T['bg']} !important;
   }}
 
   section.main > div {{
-    max-width: 960px !important;
+    max-width: 1200px !important;
     margin: 0 auto !important;
-    padding-left: 8rem !important;
-    padding-right: 8rem !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }}
 
   .accent-bar {{
