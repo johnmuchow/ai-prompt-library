@@ -32,7 +32,7 @@
     "category": "News Research",
     "use_case": "Cut through financial news noise and surface only what actually affects the stock — thesis developments, sector dynamics, and institutional activity.",
     "prompt": "For [TICKER], search for recent news from the last 30 days. Include the date of each development. Summarize only: (1) any developments that confirm or threaten the core growth thesis, (2) sector or competitor news that directly affects this company, (3) any notable institutional activity including large fund disclosures or insider buying. Be concise and factual.",
-    "article_url": "",
+    "article_url": "https://x.com/JohnMuchow/status/2024651532747026895?s=20",
     "post_number": 2,
     "date_published": "2026-02-20",
     "example_ticker": "NBIS",
